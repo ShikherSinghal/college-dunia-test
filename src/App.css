@@ -1,0 +1,342 @@
+.App {
+  width: 1440px;
+  height: 2395px;
+  background-color: var(--white);
+  /* text-align: center; */
+}
+.App-loading {
+  height: 100%;
+  width: 100%;
+  margin: auto;
+  position: fixed;
+}
+.vector {
+  border-bottom-left-radius: 16.5px;
+  border-top-left-radius: 16.5px;
+  width: 152px;
+  height: 33px;
+  margin-top: -16.5px;
+  margin-left: 487px;
+  opacity: 1;
+  background: #68a7ff;
+  color: white;
+  position: absolute;
+}
+.vector-text {
+  font-size: 15px;
+  margin: 9px 31px 9px 42px;
+  position: absolute;
+}
+.App-header {
+  padding: 49px 51px 79px 51px;
+  /* padding-left: 5.1px;
+  padding-bottom: 68.7px; */
+  width: 180px;
+  height: 18px;
+  font-family: DINPro;
+  font-size: 18.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+}
+.App-body {
+  width: 100%;
+  height: 100%;
+  display: inline-flex;
+  flex-flow: wrap;
+}
+.Rectangle-1 {
+  margin-left: 51px;
+  margin-bottom: 74.7px;
+  margin-right: 20px;
+  width: 639px;
+  height: 377px;
+  border-radius: 3.8px;
+  box-shadow: 0 0 19px 0 rgba(68, 68, 68, 0.1);
+  border: solid 0.2px #444444;
+  background-color: var(--white);
+}
+.college-img {
+  background-color: #444444;
+  padding: 0.7px 1px 0px 0.8px;
+  width: 637.3px;
+  height: 233.2px;
+}
+.college-img-fix {
+  opacity: 0.4;
+  position: absolute;
+  width: 637.3px;
+  height: 233.2px;
+}
+.college-tile1 {
+  margin-top: 18.2px;
+  margin-left: 17px;
+  width: 60%;
+  font-family: DINPro;
+  font-size: 18.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  color: #444444;
+}
+.college-tile1-address1 {
+  color: #444444;
+}
+.college-tile1-address2 {
+  color: #adadad;
+}
+.college-tile1-address {
+  margin-top: 9px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #adadad;
+}
+.college-tile1-misc {
+  margin-top: 15px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #adadad;
+}
+.college-tile1-misc-match {
+  font-weight: bold;
+  color: #37b396;
+}
+.college-tile1-misc-km {
+  font-weight: bold;
+  color: #444444;
+}
+.college-tile1-offer {
+  margin-top: 9px;
+  margin-left: -16px;
+  height: 30px;
+  font-size: 13.5px;
+  text-align: left;
+  color: #444444;
+  background: #ccf5e7;
+  border-top-right-radius: 16.5px;
+  border-bottom-right-radius: 16.5px;
+}
+.college-tile1-offer-text {
+  position: absolute;
+  margin-left: 16px;
+  margin-top: 9px;
+}
+.college-tile1-offer-text-color {
+  color: #4bb89e;
+}
+.college-tile1-offer-text-link {
+  color: #1999d2;
+  cursor: pointer;
+}
+.college-tile1-separator {
+  padding: 6px;
+}
+.college-title-star {
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  color: #444444;
+}
+.college-title-star1 {
+  padding: 2px;
+  width: 10px;
+  height: 10px;
+  color: #999999;
+}
+.college-tag1 {
+  display: inline-flex;
+  width: 135px;
+  height: 34px;
+  border-radius: 16.5px;
+  background: white;
+  margin-left: 14.3px;
+}
+.college-tag2 {
+  display: inline-flex;
+  width: 94px;
+  height: 34px;
+  border-radius: 16.5px;
+  background: white;
+  margin-left: 7px;
+}
+.college-tag2-text {
+  padding-left: 15px;
+  margin: auto;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: left;
+  color: #444444;
+  width: 100px;
+  height: 13px;
+}
+
+.college-tag1-text {
+  margin: auto;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: 500;
+  line-height: 1.33;
+  text-align: left;
+  color: #444444;
+}
+.college-rank {
+  padding-left: 125px;
+  float: right;
+  width: 388px;
+  height: 13px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  margin: auto;
+  color: white;
+}
+.college-rating {
+  margin: 28.3px 13px 151.3px 549.3px;
+  position: absolute;
+  border-radius: 3.8px;
+  width: 75px;
+  height: 53px;
+  background: #f5a626;
+}
+
+.college-rating-text {
+  padding-top: 7px;
+  margin: auto;
+  width: 57px;
+  height: 35px;
+  font-family: DINPro;
+  font-size: 13px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: center;
+  color: white;
+}
+.college-rating-text-imphasised {
+  font-size: 18px;
+  font-weight: bold;
+}
+.college-tile2 {
+  margin-top: 15.2px;
+  width: 40%;
+  font-family: DINPro;
+  font-size: 18.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.97;
+  letter-spacing: normal;
+  color: #444444;
+}
+.college-tile2-offer {
+  text-decoration: line-through;
+  margin-top: 15.2px;
+  padding-left: 160px;
+  width: 20%;
+  font-size: 11px;
+  line-height: 1.64;
+  font-weight: 500;
+  text-align: right;
+  color: #444444;
+}
+.college-tile2-tag {
+  color: #dd1c26;
+  width: 29px;
+  height: 14px;
+  transform: rotate(-45deg);
+}
+.college-tile2-rate {
+  padding-top: 13px;
+  padding-right: 27px;
+  font-family: DINPro;
+  font-size: 28.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 0.89;
+  letter-spacing: normal;
+  text-align: right;
+  color: #dd1c26;
+}
+.college-tile2-rate1 {
+  padding-right: 27px;
+  font-family: Myriad Pro;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: right;
+  color: #444444;
+}
+.college-tile2-rate1 {
+  padding-right: 27px;
+  font-family: Myriad Pro;
+  font-size: 11px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.64;
+  letter-spacing: normal;
+  text-align: right;
+  color: #444444;
+}
+.college-tile2-perks {
+  padding-right: 27px;
+  padding-top: 12px;
+  padding-bottom: 24px;
+  font-family: DINPro;
+  font-size: 13.5px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  text-align: right;
+  color: #37b396;
+}
+
+.college-details {
+  width: 100%;
+  display: inline-flex;
+}
+.row-flex {
+  position: absolute;
+  display: inline-flex;
+  padding-top: 188.3px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
